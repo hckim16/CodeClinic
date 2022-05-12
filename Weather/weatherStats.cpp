@@ -1,9 +1,4 @@
-//
-//  weatherStats.cpp
-//  Weather Statistics
-//
-//  Created by Hyo Kim on 5/12/22.
-//
+
 
 #include "weatherStats.hpp"
 
