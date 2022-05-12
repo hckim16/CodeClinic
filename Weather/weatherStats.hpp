@@ -1,9 +1,4 @@
-//
-//  weatherStats.hpp
-//  Weather Statistics
-//
-//  Created by Hyo Kim on 5/12/22.
-//
+
 
 #ifndef weatherStats_hpp
 #define weatherStats_hpp
