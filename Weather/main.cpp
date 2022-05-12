@@ -1,9 +1,4 @@
-//
-//  main.cpp
-//  Weather Statistics
-//
-//  Created by Hyo Kim on 5/12/22.
-//
+
 
 #include <iostream>
 #include <string>
