@@ -13,7 +13,7 @@
 #include <curl/curl.h>
 
 #define GEO_API_BASE_URL "https://www.googleapis.com/geolocation/v1/geolocate?key="
-#define GEO_API_KEY ""
+#define GEO_API_KEY "" // <- insert key here 
 #define GEO_API_REQUEST_URL GEO_API_BASE_URL GEO_API_KEY
 
 class geoLocation {
