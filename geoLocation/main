@@ -1,0 +1,21 @@
+/**
+ * GeolocationMain.cpp by Olivia Stone for Code Clinic: C++
+ **/
+
+#include "geoLocation.hpp"
+#include "geoLocationWifi.hpp"
+
+#include <iostream>
+
+int main() {
+    // find wifi access points
+    GeolocationWifiPoints wifiAccess;
+    wifiAccess.getWifiNetworks();
+    char *jsonPayload = wifiAccess.buildRequestaJSON();
+    
+    // request and display location info
+    geoLocation request;
+    request.getLocation(jsonPayload);
+    
+    return 0;
+}
